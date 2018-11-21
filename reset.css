@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+input,
+button,
+textarea,
+ul,
+li,
+ol,
+dt,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+input,
+textarea,
+select,
+button,
+a {
+  outline: none;
+  background: none;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+select {
+  -webkit-appearance: menulist;
+}
